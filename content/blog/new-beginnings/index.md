@@ -1,8 +1,9 @@
 ---
-title: Reactjs
+title: ReactJs
 date: "2020-11-28T22:40:32.169Z"
-description: "A JavaScript library for building user interfaces".
+description: "A JavaScript library for building user interfaces."
 ---
+
 
 Velit est esse tempor ea magna commodo anim cillum. Laboris veniam dolor magna deserunt nulla anim voluptate veniam. Enim duis velit proident laborum eu dolore ex consectetur sit amet magna enim. Nulla cupidatat culpa commodo consectetur tempor deserunt. Non ea aliqua eiusmod officia excepteur quis mollit tempor officia.
 
