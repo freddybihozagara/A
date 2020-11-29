@@ -1,7 +1,7 @@
 import React from 'react';
-import facebook from '../facebook_.png';
-import instagram from '../instagram.png';
-import twitter from '../twitter_.png';
+import facebook from './facebook_.png';
+import instagram from './instagram.png';
+import twitter from './twitter_.png';
 
 
 class SocialMedia extends React.Component{
