@@ -3,10 +3,10 @@ module.exports = {
     title: `Freddy Bihozagara's Blog`,
     author: {
       name: `Freddy Bihozagara`,
-      summary: `who lives and works in Edmonton AB, building useful things.`,
+      summary: `is a React Developer based in Edmonton AB, building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Freddy Bihozagara is a React Developer based in Edmonton AB, building useful things.`,
+    siteUrl: `freddybihozagara.netlify.app/`,
     social: {
       twitter: `Fbihozagara`,
     },
