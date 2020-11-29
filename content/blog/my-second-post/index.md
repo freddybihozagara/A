@@ -1,9 +1,8 @@
 ---
-title: My Second Post!
+title: JavaScript!
 date: "2020-11-28T23:46:37.121Z"
+description: "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. https://en.wikipedia.org/wiki/JavaScript"
 ---
-
-Wow! I love blogging so much already.
 
 Sint et ullamco nostrud cillum qui mollit enim nisi exercitation elit. Labore nulla quis et eiusmod sit labore in eiusmod pariatur officia commodo aute esse anim. Id tempor incididunt enim non laborum exercitation do. Sit deserunt veniam nisi eu sit dolore adipisicing laborum. Consectetur aliquip nisi sint adipisicing eiusmod tempor anim cillum fugiat adipisicing ipsum qui nisi fugiat. Ea eiusmod ut sunt ut cillum mollit dolor laborum Lorem esse voluptate quis. Occaecat exercitation veniam elit quis culpa duis nostrud.
 
