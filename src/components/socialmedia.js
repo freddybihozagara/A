@@ -5,10 +5,7 @@ import React from 'react';
 
 class SocialMedia extends React.Component{
 
-
-
-
-
+  
     render(){
 
         return(
@@ -20,9 +17,9 @@ class SocialMedia extends React.Component{
                     
                     <tr>
                         
-                        <td><u><a href="https://facebook.com/freddybihozagara">facebook</a></u> / </td>
-                        <td><u><a href="https://twitter.com/Fbihozagara">twitter</a></u> /</td>
-                        <td><u><a href="https://instagram.com/freddybihozagara">instagram</a></u> /</td>
+                        <td><u><button style={}><a href="https://facebook.com/freddybihozagara">facebook</a></button></u> / </td>
+                        <td><u><button style={}><a href="https://twitter.com/Fbihozagara">twitter</a></button></u> /</td>
+                        <td><u><button style={}><a href="https://instagram.com/freddybihozagara">instagram</a></button></u> /</td>
                     
                     </tr>
                     
