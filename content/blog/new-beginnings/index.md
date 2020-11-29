@@ -1,7 +1,7 @@
 ---
-title: New Beginnings
+title: Reactjs
 date: "2020-11-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: "A JavaScript library for building user interfaces".
 ---
 
 Velit est esse tempor ea magna commodo anim cillum. Laboris veniam dolor magna deserunt nulla anim voluptate veniam. Enim duis velit proident laborum eu dolore ex consectetur sit amet magna enim. Nulla cupidatat culpa commodo consectetur tempor deserunt. Non ea aliqua eiusmod officia excepteur quis mollit tempor officia.

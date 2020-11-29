@@ -1,9 +1,9 @@
 ---
 title: git-init
 date: "2020-11-28T22:12:03.284Z"
-description: "Hello World"
+description: "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among developers cooperating on source code."
 ---
-Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among developers cooperating on source code.
+
 
 ```
 
