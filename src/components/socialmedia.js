@@ -1,4 +1,7 @@
 import React from 'react';
+import facebook from './facebook_.png';
+import instagram from './instagram.png';
+import twitter from './twitter_.png';
 
 
 
@@ -17,9 +20,9 @@ class SocialMedia extends React.Component{
             <table>
                 <tbody>
                     <tr>
-                        <td><img src={require('../facebook_.png')}  alt=""/></td>
-                        <td><img src= {require('../instagram.png')} alt=""/></td>
-                        <td><img src= {require('../twitter_.png')} alt=""/></td>
+                        <td><img src={facebook}  width="50" height="50" alt=""/></td>
+                        <td><img src= {instagram} width="50" height="50" alt=""/></td>
+                        <td><img src= {twitter} width="50" height="50" alt=""/></td>
                     </tr>
                 </tbody>
             </table>
