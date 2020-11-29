@@ -17,9 +17,9 @@ class SocialMedia extends React.Component{
                     
                     <tr>
                         
-                        <td><u><button style="border-radius: 15px"><a href="https://facebook.com/freddybihozagara">facebook</a></button></u> / </td>
-                        <td><u><button style="border-radius: 15px"><a href="https://twitter.com/Fbihozagara">twitter</a></button></u> /</td>
-                        <td><u><button style="border-radius: 15px"><a href="https://instagram.com/freddybihozagara">instagram</a></button></u> /</td>
+                        <td><u><button><a href="https://facebook.com/freddybihozagara">facebook</a></button></u> / </td>
+                        <td><u><button><a href="https://twitter.com/Fbihozagara">twitter</a></button></u> /</td>
+                        <td><u><button><a href="https://instagram.com/freddybihozagara">instagram</a></button></u> /</td>
                     
                     </tr>
                     
