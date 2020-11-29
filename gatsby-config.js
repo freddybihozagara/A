@@ -6,7 +6,7 @@ module.exports = {
       summary: `is a React Developer based in Edmonton AB, building useful things.`,
     },
     description: `Freddy Bihozagara is a React Developer based in Edmonton AB, building useful things.`,
-    siteUrl: `freddybihozagara.netlify.app/`,
+    siteUrl: `https://freddybihozagara.netlify.app/`,
     social: {
       twitter: `Fbihozagara`,
     },
