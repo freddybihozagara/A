@@ -17,11 +17,15 @@ class SocialMedia extends React.Component{
                 
             <table>
                 <tbody>
+                    
                     <tr>
+                        <div>
                         <td><u><a href="https://www.facebook.com/freddybihozagara">facebook</a></u> / </td>
                         <td><u><a href="https://www.twitter.com/freddybihozagara">twitter</a></u> /</td>
-                        <td><u><a hreaf="https://www.instagram.com/freddybihozagara/">instagram</a></u></td>
+                        <td><u><a hreaf="https://www.instagram.com/freddybihozagara">instagram</a></u> /</td>
+                    </div>
                     </tr>
+                    
                     <tr>
                         <td><img src='http://unsplash.it/200/200?gravity=west' alt=''/></td>
                         
