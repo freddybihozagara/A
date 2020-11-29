@@ -19,11 +19,11 @@ class SocialMedia extends React.Component{
                 <tbody>
                     
                     <tr>
-                        <div>
+                        
                         <td><u><a href="https://www.facebook.com/freddybihozagara">facebook</a></u> / </td>
                         <td><u><a href="https://www.twitter.com/freddybihozagara">twitter</a></u> /</td>
-                        <td><u><a hreaf="https://www.instagram.com/freddybihozagara">instagram</a></u> /</td>
-                    </div>
+                        <td><u><a href="https://www.instagram.com/freddybihozagara">instagram</a></u> /</td>
+                    
                     </tr>
                     
                     <tr>
