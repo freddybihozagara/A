@@ -28,7 +28,6 @@ class SocialMedia extends React.Component{
                     
                     <tr>
                         <td><img src='http://unsplash.it/200/200?gravity=west' alt=''/></td>
-                        <td><img src='https://twitter.com/FBihozagara/photo' alt=''/></td>
                         
                     </tr>
                 </tbody>
