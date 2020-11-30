@@ -4,6 +4,9 @@ import SocialMedia from './socialmedia';
 import {GrReactjs} from "react-icons/gr/";
 import {GrGatsbyjs} from "react-icons/gr/";
 import {GrNode} from "react-icons/gr/";
+import {SiTypescript} from "react-icons/si";
+import {FaNpm} from "react-icons/fa";
+import {FaPython} from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 
@@ -33,10 +36,13 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <SocialMedia/>
       <footer>
-      <IconContext.Provider value={{ size: "5em", color: "black" }}>
+      <IconContext.Provider value={{ size: "10em", color: "black" }}>
         <div>
         <a href="https://reactjs.org/"><GrReactjs/></a>
         <a href="https://nodejs.org/"><GrNode/></a>
+        <a href="https://www.typescriptlang.org/"><SiTypescript/></a>
+        <a href="https://www.npmjs.com/"><FaNpm/></a>
+        <a href="https://www.python.org/"><FaPython/></a>
         <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
         © {new Date().getFullYear()}, Built with
         {` `}
