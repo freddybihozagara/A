@@ -51,10 +51,11 @@ const Layout = ({ location, title, children }) => {
         <a href="https://sqlite.org/"><DiSqllite/></a>
         <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
         </div>
+        <div>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
-        
+        </div>
         </IconContext.Provider>
       </footer>
     </div>
