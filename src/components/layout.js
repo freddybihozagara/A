@@ -34,9 +34,9 @@ const Layout = ({ location, title, children }) => {
       <footer>
       <IconContext.Provider value={{ size: "5em" }}>
         <div>
-        <GrReactjs size></GrReactjs>
-        <GrNode width="100" height="100"></GrNode>
-        <GrGatsbyjs width="100" height="100"></GrGatsbyjs>
+        <a href="https://reactjs.org/"><GrReactjs/></a>
+        <a href="https://nodejs.org/"><GrNode/></a>
+        <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
