@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import SocialMedia from './socialmedia';
-import {RiReactjsFill} from 'react-icons/ri/RiReactjsFill';
+import {RiReactjsFill} from 'react-icons/ri';
+import {GrGatsbyjs} from 'react-icons/gr';
+import {GrNode} from 'react-icons/gr';
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -30,6 +32,8 @@ const Layout = ({ location, title, children }) => {
       <SocialMedia/>
       <footer>
         <RiReactjsFill></RiReactjsFill>
+        <GrNode></GrNode>
+        <GrGatsbyjs></GrGatsbyjs>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>

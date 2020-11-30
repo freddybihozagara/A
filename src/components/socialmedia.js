@@ -1,7 +1,7 @@
 import React from 'react';
-import {AiFillFacebook} from 'react-icons/ai/AiFillFacebook';
-import {AiFillTwitterCircle} from 'react-icons/ai/AiFillTwitterCircle';
-import {AiFillInstagram} from 'react-icons/ai/AiFillInstagram';
+import {AiFillFacebook} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
+import {AiFillInstagram} from 'react-icons/ai';
 
 
 
