@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import SocialMedia from './socialmedia';
+import {RiReactjsFill} from "react-icons/ri";
 import {GrReactjs} from "react-icons/gr/";
 import {GrGatsbyjs} from "react-icons/gr/";
 import {GrNode} from "react-icons/gr/";
 import { IconContext } from "react-icons";
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -40,6 +42,9 @@ const Layout = ({ location, title, children }) => {
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
+        </div>
+        <div>
+          <RiReactjsFill width="100" height="100"/>
         </div>
         </IconContext.Provider>
       </footer>
