@@ -7,6 +7,7 @@ import {GrNode} from "react-icons/gr/";
 import {SiTypescript} from "react-icons/si";
 import {FaNpm} from "react-icons/fa";
 import {FaPython} from "react-icons/fa";
+import {SiFlutter} from "react-icons/si";
 import { IconContext } from "react-icons";
 
 
@@ -36,18 +37,20 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <SocialMedia/>
       <footer>
-      <IconContext.Provider value={{ size: "10em", color: "black" }}>
+      <IconContext.Provider value={{ size: "10em", color: "silver" }}>
         <div>
         <a href="https://reactjs.org/"><GrReactjs/></a>
         <a href="https://nodejs.org/"><GrNode/></a>
         <a href="https://www.typescriptlang.org/"><SiTypescript/></a>
         <a href="https://www.npmjs.com/"><FaNpm/></a>
         <a href="https://www.python.org/"><FaPython/></a>
+        <a href="https://flutter.dev/"><SiFlutter/></a>
         <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
+        </div>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </div>
+        
         </IconContext.Provider>
       </footer>
     </div>
