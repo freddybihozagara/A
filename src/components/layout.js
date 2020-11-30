@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import SocialMedia from './socialmedia';
-import {RiReactjsFill} from "react-icons/ri";
-import {GrGatsbyjs} from "react-icons/gr";
-import {GrNode} from "react-icons/gr";
+import {RiReactjsFill} from "react-icons/ri/";
+import {GrGatsbyjs} from "react-icons/gr/";
+import {GrNode} from "react-icons/gr/";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
