@@ -32,7 +32,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <SocialMedia/>
       <footer>
-      <IconContext.Provider value={{ size: "1em" }}>
+      <IconContext.Provider value={{ size: "5em" }}>
         <div>
         <RiReactjsFill size></RiReactjsFill>
         <GrNode width="100" height="100"></GrNode>
