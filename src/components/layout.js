@@ -31,9 +31,9 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <SocialMedia/>
       <footer>
-        <RiReactjsFill></RiReactjsFill>
-        <GrNode></GrNode>
-        <GrGatsbyjs></GrGatsbyjs>
+        <RiReactjsFill width="100" height="100"></RiReactjsFill>
+        <GrNode width="100" height="100"></GrNode>
+        <GrGatsbyjs width="100" height="100"></GrGatsbyjs>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>

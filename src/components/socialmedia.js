@@ -20,9 +20,9 @@ class SocialMedia extends React.Component{
                     
                     <tr>
                         
-                        <td><AiFillFacebook><a href="https://facebook.com/freddybihozagara"/></AiFillFacebook> </td>
-                        <td><AiFillInstagram><a href="https://instagram.com/freddybihozagara"/></AiFillInstagram> </td>
-                        <td><AiFillTwitterCircle><a href="https://twitter.com/Fbihozagara"/></AiFillTwitterCircle> </td>
+                        <td><AiFillFacebook width="100" height="100"><a href="https://facebook.com/freddybihozagara"/></AiFillFacebook> </td>
+                        <td><AiFillInstagram width="100" height="100"><a href="https://instagram.com/freddybihozagara"/></AiFillInstagram> </td>
+                        <td><AiFillTwitterCircle width="100" height="100"><a href="https://twitter.com/Fbihozagara"/></AiFillTwitterCircle> </td>
                     
                     
                     </tr>
