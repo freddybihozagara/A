@@ -1,4 +1,7 @@
 import React from 'react';
+import {AiFillFacebook} from 'react-icons/ai/AiFillFacebook';
+import {AiFillTwitterCircle} from 'react-icons/ai/AiFillTwitterCircle';
+import {AiFillInstagram} from 'react-icons/ai/AiFillInstagram';
 
 
 
@@ -17,9 +20,10 @@ class SocialMedia extends React.Component{
                     
                     <tr>
                         
-                        <td><u><button><a href="https://facebook.com/freddybihozagara">facebook</a></button></u> </td>
-                        <td><u><button><a href="https://twitter.com/Fbihozagara">twitter</a></button></u> </td>
-                        <td><u><button><a href="https://instagram.com/freddybihozagara">instagram</a></button></u> </td>
+                        <td><AiFillFacebook><a href="https://facebook.com/freddybihozagara"/></AiFillFacebook> </td>
+                        <td><AiFillInstagram><a href="https://instagram.com/freddybihozagara"/></AiFillInstagram> </td>
+                        <td><AiFillTwitterCircle><a href="https://twitter.com/Fbihozagara"/></AiFillTwitterCircle> </td>
+                    
                     
                     </tr>
                     
