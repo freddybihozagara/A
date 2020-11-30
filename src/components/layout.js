@@ -42,13 +42,13 @@ const Layout = ({ location, title, children }) => {
       <IconContext.Provider value={{ size: "10em", color: "#002e06" }}>
         <div>
         <a href="https://reactjs.org/"><GrReactjs/></a>
-        <a href="https://nodejs.org/"><GrNode color="green"/></a>
+        <a href="https://nodejs.org/"><GrNode/></a>
         <a href="https://www.typescriptlang.org/"><SiTypescript/></a>
-        <a href="https://www.npmjs.com/"><FaNpm color="red"/></a>
+        <a href="https://www.npmjs.com/"><FaNpm/></a>
         <a href="https://www.python.org/"><FaPython/></a>
         <a href="https://flutter.dev/"><SiFlutter/></a>
-        <a href="https://graphql.org/"><SiGraphql color="pink"/></a>
-        <a href="https://sqlite.org/"><DiSqllite color="blue"/></a>
+        <a href="https://graphql.org/"><SiGraphql/></a>
+        <a href="https://sqlite.org/"><DiSqllite/></a>
         <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
         </div>
         © {new Date().getFullYear()}, Built with

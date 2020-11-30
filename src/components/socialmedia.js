@@ -22,9 +22,9 @@ class SocialMedia extends React.Component{
                     <tr><IconContext.Provider value={{ size: "5em", color: "#002e06" }}>
                         <div>
                         
-                        <td><a href="https://facebook.com/freddybihozagara"><AiFillFacebook width="100" height="100"/></a> </td>
-                        <td><a href="https://instagram.com/freddybihozagara"><AiFillInstagram width="100" height="100"/></a> </td>
-                        <td><a href="https://twitter.com/Fbihozagara"><AiFillTwitterCircle width="100" height="100"/></a> </td>
+                        <td><a href="https://facebook.com/freddybihozagara"><AiFillFacebook/></a> </td>
+                        <td><a href="https://instagram.com/freddybihozagara"><AiFillInstagram/></a> </td>
+                        <td><a href="https://twitter.com/Fbihozagara"><AiFillTwitterCircle/></a> </td>
                     </div>
                     </IconContext.Provider>
                     
