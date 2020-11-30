@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SocialMedia from './socialmedia';
-import {RiReactjsFill} from "react-icons/ri/";
+import {GrReactjs} from "react-icons/gr/";
 import {GrGatsbyjs} from "react-icons/gr/";
 import {GrNode} from "react-icons/gr/";
 import { IconContext } from "react-icons";
@@ -34,7 +34,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
       <IconContext.Provider value={{ size: "5em" }}>
         <div>
-        <RiReactjsFill size></RiReactjsFill>
+        <GrReactjs size></GrReactjs>
         <GrNode width="100" height="100"></GrNode>
         <GrGatsbyjs width="100" height="100"></GrGatsbyjs>
         © {new Date().getFullYear()}, Built with
