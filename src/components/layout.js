@@ -4,6 +4,7 @@ import SocialMedia from './socialmedia';
 import {RiReactjsFill} from "react-icons/ri/";
 import {GrGatsbyjs} from "react-icons/gr/";
 import {GrNode} from "react-icons/gr/";
+import { IconContext } from "react-icons";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -31,12 +32,16 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <SocialMedia/>
       <footer>
-        <RiReactjsFill width="100" height="100"></RiReactjsFill>
+      <IconContext.Provider value={{ size: "1em" }}>
+        <div>
+        <RiReactjsFill size></RiReactjsFill>
         <GrNode width="100" height="100"></GrNode>
         <GrGatsbyjs width="100" height="100"></GrGatsbyjs>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
+        </div>
+        </IconContext.Provider>
       </footer>
     </div>
   )
