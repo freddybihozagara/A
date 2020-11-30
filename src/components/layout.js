@@ -10,6 +10,7 @@ import {FaPython} from "react-icons/fa";
 import {SiFlutter} from "react-icons/si";
 import {DiSqllite} from "react-icons/di";
 import {SiGraphql} from "react-icons/si";
+import {SiNetlify} from "react-icons/si";
 import { IconContext } from "react-icons";
 
 
@@ -49,12 +50,13 @@ const Layout = ({ location, title, children }) => {
         <a href="https://flutter.dev/"><SiFlutter/></a>
         <a href="https://graphql.org/"><SiGraphql/></a>
         <a href="https://sqlite.org/"><DiSqllite/></a>
-        <a href="https://www.gatsbyjs.com/"><GrGatsbyjs/></a>
+        <a href="https://www.netlify.com/"><SiNetlify/></a>
         </div>
         <div>
+        
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.gatsbyjs.com"><GrGatsbyjs/></a>
         </div>
         </IconContext.Provider>
       </footer>
